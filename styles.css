@@ -143,7 +143,12 @@ footer {
   margin: auto;
   display: block;
 }
+.expand-image {
+  width: 100vw;
+  height: 90vh; /* Adjust to take up 90% of the screen height */
+  object-fit: cover; /* Ensures the image doesn't distort */
 
+}
 iframe {
   display: block;
   width: 100%;
