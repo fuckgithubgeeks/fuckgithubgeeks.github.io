@@ -154,8 +154,6 @@ footer {
   width: 100vw; /* Allows the column to stretch across the entire viewport */
   padding: 0; /* Removes default padding */
 }
-}
-}
 iframe {
   display: block;
   width: 100%;
