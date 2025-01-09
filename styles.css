@@ -1,8 +1,7 @@
 /* This CSS is based on SIMPLE GRID by ZACH COLE 2016 */
 
 /* RESET any default browser styling */
-html,
-body {
+html, body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -12,8 +11,12 @@ body {
   background-image: url(./img/fractal9.jpg);
   background-position: center;
   background-color: white;
-  user-select: text; /* Ensures text selection is enabled */
-  pointer-events: none;
+  user-select: text; /* Allows text selection */
+  pointer-events: none; /* Ensures the background doesn't block clicks */
+}
+
+body {
+  pointer-events: auto; /* Restores pointer events for child elements */
 }
 
 /* Images */
