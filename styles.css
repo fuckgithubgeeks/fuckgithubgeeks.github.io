@@ -148,10 +148,12 @@ footer {
   width: 100vw;
   height: 90vh; /* Adjust to take up 90% of the screen height */
   object-fit: cover; /* Ensures the image doesn't distort */
+}
 
-  .col-11 {
+.col-11 {
   width: 100vw; /* Allows the column to stretch across the entire viewport */
   padding: 0; /* Removes default padding */
+}
 }
 }
 iframe {
